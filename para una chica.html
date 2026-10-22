@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bajo el encanto de tus ojos 🌙</title>
+<style>
+:root{--night:#09091c;--purple:#201447;--lav:#d9c8ff;--pink:#ffb8df;--white:#fff8ff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--white);font-family:Georgia,'Times New Roman',serif;background:radial-gradient(ellipse at 50% 0%,#30205b 0%,#15112f 40%,#080817 100%);min-height:100vh;overflow-x:hidden}#stars{position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.85}.wrap{position:relative;z-index:1;max-width:850px;margin:auto;padding:26px 20px 70px}.top{text-align:center;letter-spacing:.22em;text-transform:uppercase;font:11px/1.8 Arial,sans-serif;color:#d5c5ff}.hero{min-height:88vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}.moon{width:94px;height:94px;border-radius:50%;background:#fff3d5;box-shadow:0 0 22px #fff0c7,0 0 70px #c5a9ff88;margin:34px 0 28px;position:relative}.moon:after{content:'';position:absolute;left:22px;top:-7px;width:88px;height:88px;border-radius:50%;background:#211746}.kanji{font-size:14px;letter-spacing:.6em;color:#e6d8ff;margin-bottom:18px}.hero h1{font-size:clamp(38px,8vw,70px);line-height:1.08;font-weight:normal;margin:0 0 20px;text-shadow:0 0 26px #b79bff55}.hero h1 span{color:var(--pink);font-style:italic}.sub{font:14px/1.8 Arial,sans-serif;color:#d8d0ed;max-width:470px}.btn{border:1px solid #d8c6ff88;background:#ffffff0b;color:white;border-radius:999px;padding:14px 22px;font:12px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;transition:.25s}.btn:hover{background:#d9c8ff1c;transform:translateY(-2px)}.hero .btn{margin-top:30px}.scroll{margin-top:38px;font:10px Arial,sans-serif;letter-spacing:.22em;color:#aaa0c8}.section{margin:24px auto 72px;max-width:650px;text-align:center}.eyebrow{font:10px Arial,sans-serif;letter-spacing:.28em;text-transform:uppercase;color:#c5aaff}.section h2{font-size:clamp(27px,5vw,42px);font-weight:normal;line-height:1.2;margin:14px 0 24px}.letter{background:linear-gradient(145deg,#ffffff0d,#b9a2ff08);border:1px solid #cbb5ff36;border-radius:22px;padding:clamp(23px,6vw,45px);box-shadow:0 18px 70px #0003;text-align:left;line-height:1.95;color:#f0e9ff;font-size:17px}.letter p{margin:0 0 18px}.letter p:last-child{margin-bottom:0}.signature{text-align:right;color:var(--pink);font-style:italic;font-size:21px;margin-top:26px}.divider{color:#c7adff;letter-spacing:.8em;margin:36px 0;font-size:13px}.promise{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:25px 0}.promise div{padding:18px 10px;border:1px solid #cbb5ff2e;border-radius:16px;background:#ffffff08;font:12px/1.7 Arial,sans-serif;color:#ded4f7}.promise b{display:block;font:normal 18px Georgia,serif;color:#ffd2ed;margin-bottom:8px}.question{padding:34px 22px 40px;border:1px solid #d6bdff44;border-radius:24px;background:linear-gradient(160deg,#39245c88,#120f2a99);box-shadow:0 0 65px #9c7bff12}.question h2{font-size:clamp(31px,6vw,50px)}.question p{font:14px/1.8 Arial,sans-serif;color:#ded5f2;max-width:440px;margin:0 auto 26px}.answers{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.yes{background:#e9d8ff;color:#211638;border-color:#e9d8ff;font-weight:bold}.response{min-height:35px;margin-top:24px;color:#ffd4eb;font-size:18px;line-height:1.6}.music{max-width:420px;margin:0 auto 20px;padding:14px;border:1px solid #cbb5ff36;border-radius:18px;background:#ffffff08;text-align:center}.music-title{font:11px/1.7 Arial,sans-serif;letter-spacing:.12em;color:#e5d8ff;margin:0 0 10px}.music iframe{display:block;width:100%;height:150px;border:0;border-radius:12px}.tiny{font:10px/1.8 Arial,sans-serif;color:#9e93bc;text-align:center;margin-top:30px}.petal{position:fixed;top:-30px;z-index:0;pointer-events:none;animation:fall linear forwards;opacity:.7}@keyframes fall{to{transform:translateY(110vh) rotate(420deg);opacity:0}}@media(max-width:540px){.promise{grid-template-columns:1fr}.promise div{padding:13px}.letter{font-size:16px}.hero{min-height:82vh}}
+</style>
+</head>
+<body>
+<canvas id="stars"></canvas>
+<main class="wrap">
+  <div class="top">Bajo el encanto de tus ojos</div>
+  <section class="hero">
+    <div class="moon" aria-label="Luna brillante"></div>
+    <h1>Mi gusto hacia ti<br>es inmenso, <span>mi Hoshi.</span></h1>
+    <p class="sub">Hice esto con mucho amor para que veas lo mucho que significas para mí.</p>
+    <button class="btn" onclick="document.getElementById('carta').scrollIntoView({behavior:'smooth'})">Abrir mi corazón ↓</button>
+    <div class="scroll">DESLIZA DESPACIO</div>
+  </section>
+  <section class="section" id="carta">
+    <div class="eyebrow">Una carta para ti</div>
+    <h2>Con cariño para Edith &lt;3</h2>
+    <div class="letter">
+      <p>Quería decirte algo de una manera que se pareciera un poquito a todo lo que me haces sentir.</p>
+      <p>Ayer te pregunté si querías ser mi novia, pero después pensé que esas palabras salieron demasiado rápido. No fue porque no lo sintiera de corazón; al contrario, para mí significaba mucho y creo que no supe expresarlo como quería.</p>
+      <p>Me gustas por tu forma de ser, por nuestras conversaciones y por esa manera tan tuya de hacer que un momento sencillo se vuelva especial. Me gusta seguir conociéndote y descubrir, poco a poco, más cosas de ti.</p>
+      <p>No te escribo esto para presionarte ni para que me respondas lo que quiero escuchar. Quiero que seas sincera conmigo y que esta decisión también nazca de tu corazón. Solo quería que supieras que mi pregunta de ayer sí iba en serio.</p>
+      <div class="signature">Con mucho cariño, Fran ♡</div>
+    </div>
+    <div class="divider">✧ ⋆ ✧</div>
+    <div class="eyebrow">Lo que me gustaría compartir contigo</div>
+    <div class="promise">
+      <div><b>☾ Tiempo</b>Seguir jugando y conociéndonos más.</div>
+      <div><b>✧ Confianza</b>Poder hablar con sinceridad y escucharnos.</div>
+      <div><b>♡ Recuerdos</b>Crear pequeños momentos que sean nuestros.</div>
+    </div>
+  </section>
+  <section class="section question" id="pregunta">
+    <div class="eyebrow">Y ahora, lo que quería preguntarte</div>
+    <h2>¿Quieres ser<br>mi novia? ♡</h2>
+    <p>Me haría muy feliz que seamos más que amigos. Tómate tu tiempo y dime lo que sientas de verdad; para mí, tu sinceridad también es importante.</p>
+    <div class="answers">
+      <button class="btn yes" onclick="answerYes()">si quiero</button>
+      <button class="btn" onclick="answerNo()">NO, QUE ASCO</button>
+    </div>
+    <div class="response" id="response" aria-live="polite"></div>
+  </section>
+  <div class="tiny">La música de Lamp ahora es lo que me recuerda a ti... ♡<br>Hecho con cariño para mi niña linda.</div>
+</main>
+<script>
+const canvas=document.getElementById('stars'),ctx=canvas.getContext('2d');let stars=[];
+function resize(){canvas.width=innerWidth*devicePixelRatio;canvas.height=innerHeight*devicePixelRatio;canvas.style.width=innerWidth+'px';canvas.style.height=innerHeight+'px';ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0);stars=Array.from({length:Math.min(190,Math.floor(innerWidth/5))},()=>({x:Math.random()*innerWidth,y:Math.random()*innerHeight,r:Math.random()*1.5+.25,a:Math.random()*.7+.2,p:Math.random()*6.28}))}
+function draw(t){ctx.clearRect(0,0,innerWidth,innerHeight);for(const s of stars){let glow=s.a*(.72+.28*Math.sin(t*.001+s.p));ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);ctx.fillStyle=`rgba(239,226,255,${glow})`;ctx.fill()}requestAnimationFrame(draw)}
+addEventListener('resize',resize);resize();requestAnimationFrame(draw);
+function answerYes(){document.getElementById('response').textContent='SIIIAWHIAWHFIAVIAWVA';for(let i=0;i<24;i++)setTimeout(makePetal,i*90)}
+function answerNo(){document.getElementById('response').textContent='NOOOOOOOOOOOOAWAVNWOV'}
+function makePetal(){const e=document.createElement('div');e.className='petal';e.textContent=['✦','♡','✧','❀'][Math.floor(Math.random()*4)];e.style.left=Math.random()*100+'vw';e.style.fontSize=(12+Math.random()*18)+'px';e.style.color=['#f7c6ed','#d6c2ff','#fff0ce'][Math.floor(Math.random()*3)];e.style.animationDuration=(4+Math.random()*4)+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),8500)}
+</script>
+</body></html>
